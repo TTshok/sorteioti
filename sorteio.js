@@ -21,9 +21,9 @@ function adcionar(){
         selAdc.innerHTML += `<option value = "teste">${nomeM} adicionado<br></option>`
         res.innerHTML = ''
         let tamVetor = num2.length 
-        for(let i = 0; i < tamVetor; i++){
+        for(let i = 0; i < tamVetor; i++){ //limpar o segundo vetor
             num2.pop()
-        }
+        } 
         
     }
     nomeAdc.value = ''// limpa o input
