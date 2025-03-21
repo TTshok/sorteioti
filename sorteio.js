@@ -24,7 +24,7 @@ function adcionar(){
         for(let i = 0; i < tamVetor; i++){ //limpar o segundo vetor
             num2.pop()
         } 
-        
+    
     }
     nomeAdc.value = ''// limpa o input
     nomeAdc.focus() //se posiciona no imput anotar dps
