@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTEIO</title>
+    <link rel="stylesheet" href="stiloFinal.css">
+</head> 
+<body>
+    <header>
+        <h1>Sorteio TI</h1>
+    </header>
+    <section>
+        <div>
+            Informe seu nome: <input type="text" name="nomeAdc" id = "nomeAdc">
+            <input type="button" value="ADICIONAR" onclick="adcionar()">
+            <p><select name="nomes" id="selAdc" size = "5"></select></p>
+        </div>
+        <div>
+            <!-- <input type="number" name="numeroAdc" id = "numeroAdc"> -->
+            <p><input type="button" value="SORTEAR" onclick="finalizar()"></p>
+            <div id="res">
+
+            </div>
+           
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
+    <script src="sorteio.js"></script>
+</body>
+</html>
